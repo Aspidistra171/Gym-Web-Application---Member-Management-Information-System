@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Schedule — FITNESS HUB GYM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">FITNESS<span>HUB</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="schedule.html" class="active">Schedule</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="announcements.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="register.html" class="nav-cta">Join Now</a></li>
+      </ul>
+      <button class="hamburger">☰</button>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="page-header-content">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Schedule</div>
+      <span class="eyebrow">Class Schedule</span>
+      <h1>Weekly <span style="color: var(--color-accent);">Classes</span></h1>
+      <p>Over 30 group classes every week. From CrossFit to Boxing, HIIT to Spinning — find your rhythm.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-container">
+
+      <!-- TABS -->
+      <div class="schedule-tabs">
+        <button class="tab-btn active" data-tab="monday">Monday</button>
+        <button class="tab-btn" data-tab="tuesday">Tuesday</button>
+        <button class="tab-btn" data-tab="wednesday">Wednesday</button>
+        <button class="tab-btn" data-tab="thursday">Thursday</button>
+        <button class="tab-btn" data-tab="friday">Friday</button>
+        <button class="tab-btn" data-tab="saturday">Saturday</button>
+        <button class="tab-btn" data-tab="sunday">Sunday</button>
+      </div>
+
+      <!-- MONDAY -->
+      <div id="monday" class="tab-content">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Trainer</th>
+              <th>Category</th>
+              <th>Spots</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">07:00</td>
+              <td class="class-name">CrossFit WOD</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>12 / 20</td>
+            </tr>
+            <tr>
+              <td class="time">09:00</td>
+              <td class="class-name">Mobility & Core</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>8 / 15</td>
+            </tr>
+            <tr>
+              <td class="time">12:30</td>
+              <td class="class-name">HIIT Express</td>
+              <td>Aggelos Angidis</td>
+              <td><span class="tag tag-cardio">Cardio</span></td>
+              <td>15 / 18</td>
+            </tr>
+            <tr>
+              <td class="time">17:30</td>
+              <td class="class-name">Olympic Lifting</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>6 / 10</td>
+            </tr>
+            <tr>
+              <td class="time">19:00</td>
+              <td class="class-name">Boxing Fundamentals</td>
+              <td>Yorgo Younan</td>
+              <td><span class="tag tag-combat">Combat</span></td>
+              <td>9 / 16</td>
+            </tr>
+            <tr>
+              <td class="time">20:30</td>
+              <td class="class-name">Spinning</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Cardio</span></td>
+              <td>11 / 20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- TUESDAY -->
+      <div id="tuesday" class="tab-content" style="display:none;">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Trainer</th>
+              <th>Category</th>
+              <th>Spots</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">06:30</td>
+              <td class="class-name">Sunrise Strength</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>10 / 15</td>
+            </tr>
+            <tr>
+              <td class="time">10:00</td>
+              <td class="class-name">Core Conditioning</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>7 / 12</td>
+            </tr>
+            <tr>
+              <td class="time">13:00</td>
+              <td class="class-name">Functional Training</td>
+              <td>Aggelos Angidis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>14 / 18</td>
+            </tr>
+            <tr>
+              <td class="time">18:00</td>
+              <td class="class-name">Kickboxing</td>
+              <td>Yorgo Younan</td>
+              <td><span class="tag tag-combat">Combat</span></td>
+              <td>12 / 16</td>
+            </tr>
+            <tr>
+              <td class="time">19:30</td>
+              <td class="class-name">CrossFit WOD</td>
+              <td>Aggelos Angidis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>17 / 20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- WEDNESDAY -->
+      <div id="wednesday" class="tab-content" style="display:none;">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Trainer</th>
+              <th>Category</th>
+              <th>Spots</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">07:00</td>
+              <td class="class-name">Power Hour</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>11 / 15</td>
+            </tr>
+            <tr>
+              <td class="time">09:30</td>
+              <td class="class-name">Mobility Flow</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>9 / 15</td>
+            </tr>
+            <tr>
+              <td class="time">12:30</td>
+              <td class="class-name">HIIT Express</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Cardio</span></td>
+              <td>16 / 18</td>
+            </tr>
+            <tr>
+              <td class="time">18:00</td>
+              <td class="class-name">Olympic Lifting</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>5 / 10</td>
+            </tr>
+            <tr>
+              <td class="time">19:30</td>
+              <td class="class-name">Spinning</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Cardio</span></td>
+              <td>13 / 20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- THURSDAY -->
+      <div id="thursday" class="tab-content" style="display:none;">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Trainer</th>
+              <th>Category</th>
+              <th>Spots</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">06:30</td>
+              <td class="class-name">CrossFit WOD</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>14 / 20</td>
+            </tr>
+            <tr>
+              <td class="time">10:00</td>
+              <td class="class-name">Mobility & Stretch</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>6 / 12</td>
+            </tr>
+            <tr>
+              <td class="time">13:00</td>
+              <td class="class-name">Functional Training</td>
+              <td>Aggelos Angidis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>12 / 18</td>
+            </tr>
+            <tr>
+              <td class="time">18:30</td>
+              <td class="class-name">Boxing Advanced</td>
+              <td>Yorgo Younan</td>
+              <td><span class="tag tag-combat">Combat</span></td>
+              <td>8 / 14</td>
+            </tr>
+            <tr>
+              <td class="time">20:00</td>
+              <td class="class-name">Stretch & Recover</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>10 / 15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- FRIDAY -->
+      <div id="friday" class="tab-content" style="display:none;">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Trainer</th>
+              <th>Category</th>
+              <th>Spots</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">07:00</td>
+              <td class="class-name">Friday Crusher</td>
+              <td>Aggelos Angidis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>15 / 20</td>
+            </tr>
+            <tr>
+              <td class="time">12:30</td>
+              <td class="class-name">HIIT Express</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Cardio</span></td>
+              <td>14 / 18</td>
+            </tr>
+            <tr>
+              <td class="time">17:30</td>
+              <td class="class-name">Powerlifting</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>7 / 10</td>
+            </tr>
+            <tr>
+              <td class="time">19:00</td>
+              <td class="class-name">Kickboxing</td>
+              <td>Yorgo Younan</td>
+              <td><span class="tag tag-combat">Combat</span></td>
+              <td>11 / 16</td>
+            </tr>
+            <tr>
+              <td class="time">20:30</td>
+              <td class="class-name">Cool-Down Conditioning</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>9 / 15</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- SATURDAY -->
+      <div id="saturday" class="tab-content" style="display:none;">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Trainer</th>
+              <th>Category</th>
+              <th>Spots</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">09:00</td>
+              <td class="class-name">Weekend Warrior WOD</td>
+              <td>Dimitris Vogiatzis</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>18 / 25</td>
+            </tr>
+            <tr>
+              <td class="time">10:30</td>
+              <td class="class-name">Boxing Open Mat</td>
+              <td>Yorgo Younan</td>
+              <td><span class="tag tag-combat">Combat</span></td>
+              <td>12 / 20</td>
+            </tr>
+            <tr>
+              <td class="time">12:00</td>
+              <td class="class-name">Core Power</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>11 / 15</td>
+            </tr>
+            <tr>
+              <td class="time">15:00</td>
+              <td class="class-name">Spinning Marathon</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Cardio</span></td>
+              <td>17 / 20</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- SUNDAY -->
+      <div id="sunday" class="tab-content" style="display:none;">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Class</th>
+              <th>Trainer</th>
+              <th>Category</th>
+              <th>Spots</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time">10:00</td>
+              <td class="class-name">Sunday Mobility</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>13 / 18</td>
+            </tr>
+            <tr>
+              <td class="time">11:30</td>
+              <td class="class-name">Open Gym (No Class)</td>
+              <td>—</td>
+              <td><span class="tag tag-strength">Strength</span></td>
+              <td>Unlimited</td>
+            </tr>
+            <tr>
+              <td class="time">16:00</td>
+              <td class="class-name">Mobility & Recovery</td>
+              <td>Christos Araouzos</td>
+              <td><span class="tag tag-cardio">Conditioning</span></td>
+              <td>7 / 12</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- LEGEND -->
+      <div style="margin-top: 3rem; padding: 2rem; background: var(--color-bg-alt); border: 1px solid var(--color-border);">
+        <h4 style="margin-bottom: 1rem; color: var(--color-accent);">CATEGORY LEGEND</h4>
+        <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+          <span class="tag tag-strength">Strength</span>
+          <span class="tag tag-cardio">Cardio / Conditioning</span>
+          <span class="tag tag-combat">Combat</span>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">
+          📱 Book classes via the mobile app or at the front desk. Booking opens 48 hours before each class.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">FITNESS<span>HUB</span></div>
+          <p>Nicosia's premier strength & conditioning facility. Where dedication meets transformation.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="announcements.html">News & Events</a></li>
+            <li><a href="register.html">Join Now</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <ul>
+            <li><a href="#">Mon–Fri: 06:00 – 23:00</a></li>
+            <li><a href="#">Sat: 08:00 – 20:00</a></li>
+            <li><a href="#">Sun: 09:00 – 18:00</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Fitness Hub Gym. All rights reserved.</p>
+        <p>Designed in Nicosia, Cyprus.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

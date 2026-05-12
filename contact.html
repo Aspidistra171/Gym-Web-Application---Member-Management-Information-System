@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — FITNESS HUB GYM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">FITNESS<span>HUB</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="announcements.html">News</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="register.html" class="nav-cta">Join Now</a></li>
+      </ul>
+      <button class="hamburger">☰</button>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="page-header-content">
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Let's <span style="color: var(--color-accent);">Talk</span></h1>
+      <p>Got questions? Need a tour? Want to know about personal training? Reach out and we'll get back within 24 hours.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-container">
+      <div class="contact-grid">
+
+        <!-- INFO -->
+        <div class="contact-info-card">
+          <h3 style="margin-bottom: 1rem; font-family: var(--font-display);">Visit <span style="color: var(--color-accent);">Us</span></h3>
+          <p style="margin-bottom: 2rem;">We're located in central Nicosia, with free parking on site and easy access by bus.</p>
+
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p>42 Makarios Avenue</p>
+              <small>Nicosia 1065, Cyprus</small>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>+357 22 123 456</p>
+              <small>Mon–Fri: 09:00 – 19:00</small>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@fitnesshub.cy</p>
+              <small>Response within 24 hours</small>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">🕒</div>
+            <div>
+              <h4>Hours</h4>
+              <p>Mon–Fri: 06:00 – 23:00</p>
+              <small>Sat 08:00–20:00 · Sun 09:00–18:00</small>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" title="Instagram">📷</a>
+            <a href="#" title="Facebook">f</a>
+            <a href="#" title="YouTube">▶</a>
+            <a href="#" title="TikTok">♪</a>
+          </div>
+        </div>
+
+        <!-- FORM -->
+        <div>
+          <div class="form-container" style="padding: 2.5rem; max-width: none;">
+
+            <h3 style="margin-bottom: 0.5rem; font-family: var(--font-display);">Send a <span style="color: var(--color-accent);">Message</span></h3>
+            <p style="margin-bottom: 2rem;">Fill in the form below and we'll be in touch.</p>
+
+            <div class="form-success" id="contact-success">
+              ✓ MESSAGE SENT — We'll reply within 24 hours.
+            </div>
+
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="c-name">Your Name</label>
+                <input type="text" id="c-name" name="name" placeholder="John Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="c-email">Email</label>
+                <input type="email" id="c-email" name="email" placeholder="you@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="c-phone">Phone (optional)</label>
+                <input type="tel" id="c-phone" name="phone" placeholder="+357 99 123456">
+              </div>
+
+              <div class="form-group">
+                <label for="c-subject">Subject</label>
+                <select id="c-subject" name="subject" required>
+                  <option value="">Choose a topic...</option>
+                  <option value="membership">Membership Inquiry</option>
+                  <option value="training">Personal Training</option>
+                  <option value="tour">Book a Tour</option>
+                  <option value="event">Event / Competition</option>
+                  <option value="feedback">Feedback</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="c-message">Message</label>
+                <textarea id="c-message" name="message" placeholder="Tell us what you need..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                Send Message →
+              </button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- MAP PLACEHOLDER -->
+      <div style="margin-top: 4rem; height: 350px; background: var(--color-bg-alt); border: 1px solid var(--color-border); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+        <div style="position: absolute; inset: 0; background-image: linear-gradient(45deg, var(--color-border) 25%, transparent 25%), linear-gradient(-45deg, var(--color-border) 25%, transparent 25%); background-size: 30px 30px; opacity: 0.1;"></div>
+        <div style="position: relative; text-align: center;">
+          <div style="font-size: 4rem; margin-bottom: 1rem;">📍</div>
+          <h3 style="font-family: var(--font-display);">Find Us On The Map</h3>
+          <p style="margin-top: 0.5rem;">42 Makarios Avenue, Nicosia 1065</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">FITNESS<span>HUB</span></div>
+          <p>Nicosia's premier strength & conditioning facility. Where dedication meets transformation.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="announcements.html">News & Events</a></li>
+            <li><a href="register.html">Join Now</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hours</h4>
+          <ul>
+            <li><a href="#">Mon–Fri: 06:00 – 23:00</a></li>
+            <li><a href="#">Sat: 08:00 – 20:00</a></li>
+            <li><a href="#">Sun: 09:00 – 18:00</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Fitness Hub Gym. All rights reserved.</p>
+        <p>Designed in Nicosia, Cyprus.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
