@@ -8,6 +8,7 @@
 </head>
 <body>
 
+  <header>
   <!-- NAVIGATION -->
   <nav class="navbar">
     <div class="nav-container">
@@ -24,7 +25,9 @@
       <button class="hamburger">☰</button>
     </div>
   </nav>
+  </header>
 
+  <main>
   <!-- PAGE HEADER -->
   <section class="page-header">
     <div class="page-header-content">
@@ -97,7 +100,7 @@
       </div>
 
       <!-- ANNUAL TOGGLE INFO -->
-      <div style="text-align: center; margin-top: 4rem; padding: 2rem; background: var(--color-bg-alt); border: 1px solid var(--color-border);">
+      <div class="info-box" style="margin-top: 4rem; text-align: center;">
         <h3 style="margin-bottom: 1rem;">💡 Annual Plans Available</h3>
         <p style="max-width: 600px; margin: 0 auto;">
           Pay annually and save up to <strong style="color: var(--color-accent);">20%</strong> on any plan above.
@@ -108,33 +111,35 @@
   </section>
 
   <!-- FAQ -->
-  <section class="section" style="background: var(--color-bg-alt);">
+  <section class="section section-alt">
     <div class="section-container">
       <div class="section-header">
         <span class="eyebrow">Common Questions</span>
         <h2><span class="outline">Need To</span> Know</h2>
       </div>
 
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
-        <div style="padding: 2rem; background: var(--color-bg); border: 1px solid var(--color-border);">
-          <h4 style="color: var(--color-accent); margin-bottom: 0.75rem;">Can I cancel anytime?</h4>
+      <div class="faq-grid">
+        <div class="faq-card">
+          <h4>Can I cancel anytime?</h4>
           <p>Yes. All monthly plans can be cancelled with 30 days' notice. Annual plans include a 14-day money-back guarantee.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-bg); border: 1px solid var(--color-border);">
-          <h4 style="color: var(--color-accent); margin-bottom: 0.75rem;">Do you offer student discounts?</h4>
+        <div class="faq-card">
+          <h4>Do you offer student discounts?</h4>
           <p>Absolutely. Students get 20% off any monthly plan with valid ID. Just show it during registration.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-bg); border: 1px solid var(--color-border);">
-          <h4 style="color: var(--color-accent); margin-bottom: 0.75rem;">Can I freeze my membership?</h4>
+        <div class="faq-card">
+          <h4>Can I freeze my membership?</h4>
           <p>Yes, you can freeze for up to 3 months per year at no cost. Useful for travel or injury recovery.</p>
         </div>
-        <div style="padding: 2rem; background: var(--color-bg); border: 1px solid var(--color-border);">
-          <h4 style="color: var(--color-accent); margin-bottom: 0.75rem;">Is there a sign-up fee?</h4>
+        <div class="faq-card">
+          <h4>Is there a sign-up fee?</h4>
           <p>No sign-up fees, ever. The price you see is what you pay. Just membership — clean and simple.</p>
         </div>
       </div>
     </div>
   </section>
+
+  </main>
 
   <!-- FOOTER -->
   <footer class="footer">

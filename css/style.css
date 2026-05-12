@@ -43,7 +43,7 @@ body {
 }
 
 /* ===== TYPOGRAPHY ===== */
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: var(--font-display);
   font-weight: 400;
   letter-spacing: 0.02em;
@@ -284,7 +284,6 @@ a {
 
 .hero-stats {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
@@ -355,6 +354,9 @@ a {
   max-width: 600px;
   font-size: 1.05rem;
 }
+
+.section-alt { background: var(--color-bg-alt); }
+.section-center { text-align: center; }
 
 /* ===== FEATURE GRID (Home) ===== */
 .features-grid {
@@ -520,6 +522,24 @@ a {
 .plan-features li.disabled::before {
   content: '×';
   color: var(--color-text-dim);
+}
+
+/* ===== FAQ ===== */
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.faq-card {
+  padding: 2rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
+
+.faq-card h4 {
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
 }
 
 /* ===== CLASS SCHEDULE ===== */
@@ -792,7 +812,6 @@ a {
 /* ===== ANNOUNCEMENTS ===== */
 .announcements-list {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
@@ -852,6 +871,21 @@ a {
 
 .announcement-badge.news { background: #6496ff; }
 .announcement-badge.event { background: #ffc800; color: var(--color-bg); }
+
+/* ===== INFO / CTA BOXES ===== */
+.info-box {
+  padding: 2rem;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+}
+
+.cta-box {
+  margin-top: 5rem;
+  padding: 3rem;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  text-align: center;
+}
 
 /* ===== CONTACT ===== */
 .contact-grid {
@@ -1073,9 +1107,6 @@ a {
     grid-template-columns: 1fr 1fr;
   }
 
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1106,6 +1137,7 @@ a {
   .trainers-grid,
   .contact-grid,
   .footer-grid,
+  .faq-grid,
   .form-row {
     grid-template-columns: 1fr;
   }
