@@ -1,5 +1,5 @@
 // ============================================
-// IRONFORGE GYM - Main JavaScript
+// FITNESS HUB GYM - Main JavaScript
 // ============================================
 
 // Mobile menu toggle
