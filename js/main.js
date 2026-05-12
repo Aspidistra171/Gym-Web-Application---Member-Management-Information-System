@@ -1,5 +1,5 @@
 // ============================================
-// FITNESS HUB GYM - Main JavaScript
+// FITNESS HUB - Main JavaScript
 // ============================================
 
 // Mobile menu toggle
